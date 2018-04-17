@@ -18,4 +18,4 @@ deploy: generate
 	git push origin master
 	cd ..
 
-.PHONY: new generate deploy
+.PHONY: generate new deploy
