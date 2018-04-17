@@ -11,7 +11,6 @@ new:
 	hugo new post/${post_file}
 	vim content/post/${post_file}
 
-# make msg="message" deploy
 deploy: generate
 	git add .
 	git commit -m "deploy ${now}"
