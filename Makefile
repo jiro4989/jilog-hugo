@@ -15,11 +15,15 @@ deploy: generate
 	git add .
 	git commit -m "deploy ${now}"
 	git push origin master
+	cd ./public && make
 
 apply_gitignore:
 	git rm -r --cached .
 	git add .
 	git commit -m "apply gitignore ${now}"
 	git push origin master
+
+submod:
+	git submodule add https://github.com/jiro4989/jiro4989.github.io public
 
 .PHONY: generate new deploy
