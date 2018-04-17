@@ -1,0 +1,6 @@
+baseURL = "http://example.org/"
+# languageCode = "en-us"
+languageCode = "ja-jp"
+title = "My New Hugo Site"
+theme = "icarus"
+hasCJKLanguage = true
