@@ -1,4 +1,5 @@
 today := `date +%Y/%m/%d`
+now := `date +%Y/%m/%dT%H:%M:%S+09:00`
 post_file := ${today}/${title}.md
 
 generate:
@@ -12,10 +13,14 @@ new:
 
 # make msg="message" deploy
 deploy: generate
-	cd ./public
-	git add -A
-	git commit -m "update `date +%Y/%m/%dT%H:%M:%S+09:00`"
+	git add .
+	git commit -m "deploy ${now}"
 	git push origin master
-	cd ..
+
+apply_gitignore:
+	git rm -r --cached .
+	git add .
+	git commit -m "apply gitignore ${now}"
+	git push origin master
 
 .PHONY: generate new deploy
