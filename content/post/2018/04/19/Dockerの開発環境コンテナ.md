@@ -10,6 +10,8 @@ tags = ["docker", "docker-compose", "vim", "golang"]
 Dockerで開発環境構築しようとした所感を書いています。まだ環境構築自体は完了してい
 ません。
 
+作成しているリポジトリは[こちら](https://github.com/jiro4989/docker-workspace)。
+
 目的
 ------------------------------------------------------------------------------
 
@@ -82,4 +84,10 @@ GoInstallBinariesでエラー
 vim-goの`:GoInstallBinaries`を実行したときに上記のエラーがでています。.bashrcに
 は$HOME/goと書くようにしているのですが、なぜなのかはまだ調査中です。これを解消す
 ればほぼほぼ構築が完了すると考えています。
+
+### 追記
+
+メタキャラクタ云々はdocker-compose.ymlのenvironmentにGOPATHをセットしていたのが
+原因でした...。無事解決、まだ途中ですが。
+
 
