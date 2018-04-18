@@ -2,6 +2,10 @@ today := `date +%Y/%m/%d`
 now := `date +%Y/%m/%dT%H:%M:%S+09:00`
 post_file := ${today}/${title}.md
 
+init:
+	-rm -rf public
+	git submodule add https://github.com/jiro4989/jiro4989.github.io public
+
 generate:
 	hugo
 
@@ -22,8 +26,5 @@ apply_gitignore:
 	git add .
 	git commit -m "apply gitignore ${now}"
 	git push origin master
-
-submod:
-	git submodule add https://github.com/jiro4989/jiro4989.github.io public
 
 .PHONY: generate new deploy
