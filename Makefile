@@ -3,7 +3,8 @@ now := `date +%Y/%m/%dT%H:%M:%S+09:00`
 post_file := ${today}/${title}.md
 
 init:
-	git submodule add https://github.com/jiro4989/jiro4989.github.io public
+	-rm -rf ./public
+	git submodule add --force https://github.com/jiro4989/jiro4989.github.io public
 
 generate:
 	hugo
