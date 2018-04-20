@@ -18,7 +18,7 @@ new:
 deploy: generate
 	git add .
 	git commit -m "deploy ${now}"
-	git push origin master
+	-git push origin master
 	cd ./public && make
 
 apply_gitignore:
