@@ -1,6 +1,7 @@
 +++
 title = "ブックマークレットを他人に配布するコツ"
 date = 2018-04-20T20:44:38+09:00
+slug = "bookmarklet-tips"
 categories = ["技術"]
 tags = ["html", "javascript", "bookmarklet", "tips"]
 +++

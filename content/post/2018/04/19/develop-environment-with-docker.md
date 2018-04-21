@@ -1,6 +1,7 @@
 +++
 title = "Dockerの開発環境コンテナ"
 date = 2018-04-19T05:21:01+09:00
+slug = "develop-environment-with-docker"
 categories = ["技術"]
 tags = ["docker", "docker-compose", "vim", "golang"]
 +++
