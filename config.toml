@@ -65,6 +65,11 @@ theme = "icarus"
     label  = "Categories"
     link   = "categories/"
 
+[[params.menu]]
+    before = false
+    label  = "Repository"
+    link   = "https://github.com/jiro4989/jilog-hugo"
+
 # Enter a link for the follow button on the left
 [params.profile]
     follow_button = "https://twitter.com/jiro_saburomaru"
