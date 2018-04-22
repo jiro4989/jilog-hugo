@@ -6,7 +6,7 @@ POST_FILE := ${POST_TITLE}.md
 generate:
 	hugo
 
-server:
+server: generate
 	hugo server -D
 
 init:
