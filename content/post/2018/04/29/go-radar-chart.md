@@ -4,6 +4,7 @@ slug = "go-radar-chart"
 date = 2018-04-29T11:21:20+09:00
 categories = ["技術"]
 tags = ["チャート", "グラフ", "集計", "golang"]
+banner = "img/2018/04/29/go-radar-chart/chart01.png"
 +++
 
 はじめに
