@@ -4,7 +4,7 @@ POST_TITLE := ${TODAY}/${title}
 POST_FILE := ${POST_TITLE}.md
 
 .PHONY: generate
-generate:
+generate: clean
 	hugo
 
 .PHONY: server
@@ -17,9 +17,8 @@ init:
 	git submodule add --force https://github.com/jiro4989/jiro4989.github.io public
 
 .PHONY: new
-# make new title="new title"
 new:
-	if [ "${title}" = "" ]; then echo "Input title."; exit 1 ; fi
+	if [ "${title}" = "" ]; then echo "[ERROR]title変数を入力してください。(ex: make new title=hogepiyo)"; exit 1 ; fi
 	hugo new post/${POST_FILE}
 	mkdir -p static/img/${POST_TITLE}
 	vim content/post/${POST_FILE}
@@ -30,6 +29,10 @@ deploy: generate
 	-git commit -m "deploy ${NOW}"
 	-git push origin master
 	cd ./public && make
+
+.PHONY: clean
+clean:
+	cd ./public && make clean
 
 .PHONY: apply-gitignore
 apply-gitignore:
