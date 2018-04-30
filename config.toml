@@ -16,15 +16,15 @@ theme = "icarus"
 # themesDir = "../.."
 
 [permalinks]
-    post = "/post/:year/:month/:day/:slug"
+    post = "/post/content/:year/:month/:day/:slug"
 
 [params]
     # Tell me who you are
     author = "次郎"
     bio = "SIer勤務のWeb系エンジニア"
     location = "日本"
-    site_description = ""
-    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+    site_description = "技術、ツールやイラスト配布、RPGツクールの話など"
+    copyright  = "Jiro. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
     avatar = "css/images/avatar.png"
     # Enter your email address to display your Gravatar icon in the profile. If not set the theme
     # will fallback to the avatar.
@@ -37,14 +37,6 @@ theme = "icarus"
 
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
-
-    # Add custom assets with their paths relative to the static folder
-	custom_css = []
-	custom_js  = []
-
-# Create custom menu entries by defining a label and a link for
-# them. Since you can also link posts, you've the option the
-# place the links before or after them.
 
 [[params.anniversary]]
     prefix = "社会人"
@@ -70,6 +62,10 @@ theme = "icarus"
     prefix = "イラストを描き始めて"
     date = "2011-11-01"
     suffix = "目"
+
+# Create custom menu entries by defining a label and a link for
+# them. Since you can also link posts, you've the option the
+# place the links before or after them.
 
 # E.g.: "Home" appears before all linked posts in the menu
 # and "Tags" / "Categories" after them.
