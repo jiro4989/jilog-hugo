@@ -133,45 +133,69 @@ init配下に配置するファイルを下記のようにしようと考えま�
 
 最終的には下記のようになりました。
 
+`tree .vim/ --charset=C | xclip -selection clipboard`
 
     .vim/
-      +- gvimrc
-      +- vimperatorrc
-      +- rc/
-      |  +- init/
-      |     | +- filetype.vim
-      |     | +- basic.vim
-      |     | +- ui.vim
-      |     | +- keymap.vim
-      |     | +- testing.vim
-      |     | +- backup.vim
-      |     plugin/
-      |       +- unite.vim
-      |       +- twitvim.vim
-      |       +- vim-fugitive.vim
-      |       +- denite.vim
-      |       +- vimfiler.vim
-      |       +- vim-slime.vim
-      |       +- vaffle.vim
-      |       +- vim-bookmarks.vim
-      |       +- emmet-vim.vim
-      |       +- vim-go.vim
-      |       +- vim-table-mode.vim
-      |       +- vim-alignta.vim
-      |       +- vim-markdown.vim
-      |       +- vim-gitgutter.vim
-      |       +- memolist.vim
-      |       +- vim-airline.vim
-      |       +- neocomplete.vim
-      |       +- deoplete.vim
-      |       +- gen_tags.vim
-      |       +- ale.vim
-      +- colors/
-      +- template/
-      +- vrapperrc
-      +- vimrc
-      +- after/ftplugin/
-      +- dict/
+    |-- after
+    |   `-- ftplugin
+    |       |-- go.vim
+    |       |-- java.vim
+    |       |-- javascript.vim
+    |       |-- kotlin.vim
+    |       |-- markdown.vim
+    |       |-- python.vim
+    |       `-- scala.vim
+    |-- colors
+    |   |-- molokai.vim
+    |   `-- solarized.vim
+    |-- dict
+    |   |-- java.dict
+    |   |-- kotlin.dict
+    |   `-- scala.dict
+    |-- gvimrc
+    |-- rc
+    |   |-- init
+    |   |   |-- backup.vim
+    |   |   |-- basic.vim
+    |   |   |-- filetype.vim
+    |   |   |-- keymap.vim
+    |   |   |-- testing.vim
+    |   |   `-- ui.vim
+    |   `-- plugin
+    |       |-- ale.vim
+    |       |-- dein
+    |       |   |-- deinrc.vim
+    |       |   |-- plugins.toml
+    |       |   |-- plugins_lazy.toml
+    |       |   `-- plugins_own.toml
+    |       |-- denite.vim
+    |       |-- deoplete.vim
+    |       |-- emmet-vim.vim
+    |       |-- gen_tags.vim
+    |       |-- memolist.vim
+    |       |-- neocomplete.vim
+    |       |-- twitvim.vim
+    |       |-- unite.vim
+    |       |-- vaffle.vim
+    |       |-- vim-airline.vim
+    |       |-- vim-alignta.vim
+    |       |-- vim-bookmarks.vim
+    |       |-- vim-fugitive.vim
+    |       |-- vim-gitgutter.vim
+    |       |-- vim-go.vim
+    |       |-- vim-markdown.vim
+    |       |-- vim-slime.vim
+    |       |-- vim-table-mode.vim
+    |       `-- vimfiler.vim
+    |-- template
+    |   |-- bash.txt
+    |   |-- daylog.md
+    |   |-- go.txt
+    |   |-- java.txt
+    |   `-- python.txt
+    |-- vimperatorrc
+    |-- vimrc
+    `-- vrapperrc
 
 vimrcの中身は下記の通り
 
