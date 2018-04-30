@@ -139,33 +139,33 @@ init配下に配置するファイルを下記のようにしようと考えま�
       +- vimperatorrc
       +- rc/
       |  +- init/
-      |  |  | +- filetype.vim
-      |  |  | +- basic.vim
-      |  |  | +- ui.vim
-      |  |  | +- keymap.vim
-      |  |  | +- testing.vim
-      |  |  | +- backup.vim
-      |  |  plugin/
-      |  |    +- unite.vim
-      |  |    +- twitvim.vim
-      |  |    +- vim-fugitive.vim
-      |  |    +- denite.vim
-      |  |    +- vimfiler.vim
-      |  |    +- vim-slime.vim
-      |  |    +- vaffle.vim
-      |  |    +- vim-bookmarks.vim
-      |  |    +- emmet-vim.vim
-      |  |    +- vim-go.vim
-      |  |    +- vim-table-mode.vim
-      |  |    +- vim-alignta.vim
-      |  |    +- vim-markdown.vim
-      |  |    +- vim-gitgutter.vim
-      |  |    +- memolist.vim
-      |  |    +- vim-airline.vim
-      |  |    +- neocomplete.vim
-      |  |    +- deoplete.vim
-      |  |    +- gen_tags.vim
-      |  |    +- ale.vim
+      |     | +- filetype.vim
+      |     | +- basic.vim
+      |     | +- ui.vim
+      |     | +- keymap.vim
+      |     | +- testing.vim
+      |     | +- backup.vim
+      |     plugin/
+      |       +- unite.vim
+      |       +- twitvim.vim
+      |       +- vim-fugitive.vim
+      |       +- denite.vim
+      |       +- vimfiler.vim
+      |       +- vim-slime.vim
+      |       +- vaffle.vim
+      |       +- vim-bookmarks.vim
+      |       +- emmet-vim.vim
+      |       +- vim-go.vim
+      |       +- vim-table-mode.vim
+      |       +- vim-alignta.vim
+      |       +- vim-markdown.vim
+      |       +- vim-gitgutter.vim
+      |       +- memolist.vim
+      |       +- vim-airline.vim
+      |       +- neocomplete.vim
+      |       +- deoplete.vim
+      |       +- gen_tags.vim
+      |       +- ale.vim
       +- colors/
       +- template/
       +- vrapperrc
