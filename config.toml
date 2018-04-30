@@ -38,31 +38,6 @@ theme = "icarus"
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
 
-[[params.anniversary]]
-    prefix = "社会人"
-    date = "2017-04-01"
-    suffix = "目"
-
-[[params.anniversary]]
-    prefix = "現職勤続"
-    date = "2017-04-01"
-    suffix = "目"
-
-[[params.anniversary]]
-    prefix = "このブログを始めて"
-    date = "2018-04-20"
-    suffix = "目"
-
-[[params.anniversary]]
-    prefix = "ツールを配布し始めて"
-    date = "2016-07-16"
-    suffix = "目"
-
-[[params.anniversary]]
-    prefix = "イラストを描き始めて"
-    date = "2011-11-01"
-    suffix = "目"
-
 # Create custom menu entries by defining a label and a link for
 # them. Since you can also link posts, you've the option the
 # place the links before or after them.
