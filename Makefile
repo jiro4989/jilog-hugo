@@ -13,7 +13,7 @@ init:
 	-rm -rf ./public
 	git submodule add --force https://github.com/jiro4989/jiro4989.github.io public
 
-# make title="new title" new
+# make new title="new title"
 new:
 	if [ "${title}" = "" ]; then echo "Input title."; exit 1 ; fi
 	hugo new post/${POST_FILE}
