@@ -80,7 +80,7 @@ GitHubになんでもいいので、適当にテスト用にリポジトリを�
 
 下記のコマンドを実行します。
 
-```bahs
+```bash
 mkdir -p dist
 GOOS=linux GOARCH=386 CGO_ENABLED=0 go build -o dist/test-go_linux_386 main.go
 GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o dist/test-go_linux_amd64 main.go
