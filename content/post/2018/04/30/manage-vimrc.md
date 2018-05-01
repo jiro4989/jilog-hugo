@@ -99,7 +99,7 @@ vimrcの読み込み場所
           +- color
           +- dict
           +- template
-          +- vimrc
+          +- rc
               +- init
               +- plugin
 
@@ -111,9 +111,9 @@ vimrcの読み込み場所
 | color          | colorschemeファイル                             |
 | dict           | 辞書ファイル                                    |
 | template       | テンプレートファイル                            |
-| vimrc          | 今回のメインでいじるディレクトリ                |
-| vimrc/init     | vimに標準で含まれる設定のみ記述するディレクトリ |
-| vimrc/plugin   | プラグイン用の設定                              |
+| rc             | 今回のメインでいじるディレクトリ                |
+| rc/init        | vimに標準で含まれる設定のみ記述するディレクトリ |
+| rc/plugin      | プラグイン用の設定                              |
 
 次に、現在のvimrcを参考にvimrcを分割します。
 init配下に配置するファイルを下記のようにしようと考えました。
