@@ -5,8 +5,6 @@ date = 2018-05-23T22:31:23+09:00
 
 categories = ["技術"]
 tags = ["golang", "メモ", "cli", "grep", "changelog"]
-
-draft = true
 +++
 
 はじめに
