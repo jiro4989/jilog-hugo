@@ -10,8 +10,8 @@ googleAnalytics = ""
 # Define the number of posts per page
 paginate = 10
 footnotereturnlinkcontents = "↩"
-# theme = "hugo-icarus-theme"
 theme = "icarus"
+#theme = "sam"
 # Comment the themesDir option if you use this theme in production
 # themesDir = "../.."
 
