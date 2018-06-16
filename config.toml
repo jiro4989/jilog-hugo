@@ -64,6 +64,12 @@ theme = "icarus"
     label  = "Repository"
     link   = "https://github.com/jiro4989/jilog-hugo"
 
+
+[[params.menu]]
+    before = false
+    label  = "Illust"
+    link   = "https://jiro4989.github.io/dist-illust/"
+
 # Enter a link for the follow button on the left
 [params.profile]
     follow_button = "https://twitter.com/jiro_saburomaru"
