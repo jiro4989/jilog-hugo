@@ -29,5 +29,8 @@
     "tachyons": "^4.9.1",
     "webpack": "^2.3.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lodash": ">=4.17.11",
+    "randomatic": ">=3.0.0"
+  }
 }
